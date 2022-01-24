@@ -22,9 +22,9 @@ function draw() {
   textFont(f1);
   textAlign(CENTER);
   text("Happy Birthday Song!"+ "Destiny's Child first charted in 1997 and ever since then was competing against big names like TLC,En Vogue,ect. Say my name was released in 1999 and was reaching top 100 charts in March of 2000. It took 12 weeks to reach #1 on the Billboard charts. It spent 32 weeks on the Hot 100's.",200 , 100, windowWidth - 200, windowHeight - 200);
-  image(destiny,100,500, 400, 400);
-image(birthday,1500,500, 400, 400);
-image(patrick,800,500,400,400)
+  image(destiny,100,530, 400, 400);
+image(birthday,1500,530, 400, 400);
+image(patrick,800,530,400,400)
 
 
 }
