@@ -1,0 +1,40 @@
+body {background-color: black;
+  background-image: url(City.png);
+}
+#Pic2 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 750px;
+  height: 750px;
+  transition: width 3.0s, height 3.0s;
+}
+#Pic2 img:hover {
+  height: 850px;
+  width: 850px;
+}
+#Pic1 img {  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 400px;
+  height: 500px;
+  animation: Pic1 1s ease-in infinite;
+}
+
+@keyframes Pic1 {
+  0%   { left: 1900px; top:0px; }
+  50% {opacity: .5;}
+  100% { left: 0; top: 300px; opacity: 0}
+}
+#Pic3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  height: 750px;
+  animation: Pic3 10s ease-in infinite;
+}
+@keyframes Pic3 {
+  0%  {opacity: 1}
+  100% { opacity: 0}
+}
