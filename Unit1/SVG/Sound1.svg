@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1922 1081">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+      .cls-1,
+      .cls-2,
+      .cls-3 {
+        stroke: #000;
+      }
+      .cls-1,
+      .cls-2,
+      .cls-3,
+      .cls-4,
+      .cls-5,
+      .cls-6 {
+        stroke-miterlimit: 10;
+      }
+      .cls-2 {
+        fill: #fff;
+      }
+      .cls-4,
+      .cls-5,
+      .cls-6 {
+        fill: none;
+        stroke-width: 10px;
+      }
+      .cls-4 {
+        stroke: red;
+      }
+      .cls-5 {
+        stroke: blue;
+      }
+      .cls-6 {
+        stroke: lime;
+      }
+    </style>
+  </defs>
+  <g id="Background"><rect class="cls-1" x="0.5" y="0.5" width="1921" height="1080"/></g>
+  <g id="Sound"><path class="cls-2" d="M819.5,501.5" transform="translate(2 -1)"/><path class="cls-3" d="M342.5,394.68V601.5l107-28c107-28,150,130,150,130l-5-452S550.5,507.85,342.5,394.68Z" transform="translate(2 -1)"/></g>
+  <g id="wave3"><path class="cls-4" d="M716.18,376.4s232.88,137,0,223.49" transform="translate(2 -1)"/></g>
+  <g id="wave2"><path class="cls-5" d="M1051.18,302s408.79,215.13,0,351" transform="translate(2 -1)"/></g>
+  <g id="wave"><path class="cls-6" d="M844.18,321.83s422.29,190.61,0,311" transform="translate(2 -1)"/></g>
+</svg>

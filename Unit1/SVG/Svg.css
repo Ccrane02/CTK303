@@ -1,0 +1,60 @@
+#Sound {
+width: 1500px;
+display: block;
+transition: transform .40s linear;
+transform-origin: center;
+}
+#Sound:hover {
+transform: scale(1.1);
+}
+  #wave3 {
+  width: 1500px;
+  display: block;
+  transition: transform .40s linear;
+  transform-origin: right;
+}
+  #wave3:hover {
+  transform: scale(.9);
+}
+#wave2 {
+width: 1500px;
+display: block;
+transition: transform .40s linear;
+transform-origin: right;
+}
+#wave2:hover {
+transform: scale(.9);
+}
+#wave {
+width: 1500px;
+display: block;
+transition: transform .40s linear;
+transform-origin: right;
+}
+#wave:hover {
+transform: scale(.9);
+}
+#wave {animation: wfade 1.25s;
+  transform-origin: right top;
+}
+
+@keyframes wfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
+}
+  #wave2 {animation: wfade 1.5s;
+    transform-origin: right top;
+  }
+
+  @keyframes wfade {
+    0%   { transform: scale(0.1);}
+    100% { transform: scale(1.0);}
+  }
+    #wave3 {animation: wfade 1.0s;
+      transform-origin: right top;
+    }
+
+    @keyframes wfade {
+      0%   { transform: scale(0.1);}
+      100% { transform: scale(1.0);}
+    }
